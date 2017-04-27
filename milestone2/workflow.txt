@@ -1,0 +1,13 @@
+What does your project accomplish?
+I am designing a genome aligner. The genome has four possible bases at each position, a,g,t, or c. In the  era of next-generation sequencing, we are able to profile the sequence of the genome. Sequencing generates a dataset of short,70 base pair reads. I will generate model genomes and associated reads. Using these sequencing reads, I will determine the full sequence of the genome. To determine the sequence, I will find overlapping regions in the reads and use that to order the reads. This concept is called de novo alignment. 
+
+What inputs will it accept? 
+In my current model of the project, there are no user inputs. It is possible to add user inputs such as the number of reads and the number of sequencing errors.
+
+What manipulations will the program perform on the data? 
+The program will generate the reads and shuffle them into a random list of reads. With the random list of reads, the program will generate a similiarity matrix. Each read will be compared to all other reads. The most overlapping reads will be adjacent to each other. Directionality is important so all reads are read left to right. 
+
+What outputs will the program produce? 
+The output will be aligned sequence. In addition, I will generate a statistic to show how closely the aligned sequence matches the original sequence. I will show the similarity statistics both in numerical and graphical form.
+
+

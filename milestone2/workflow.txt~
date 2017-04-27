@@ -1,0 +1,11 @@
+What does your project accomplish?
+I am designing a genome aligner. The genome has four possible bases at each position, a,g,t, or c. In the  era of next-generation sequencing, we are able to profile the sequence of the genome. Sequencing generates a dataset of short,70 base pair reads throughout the genome. I will model this process, and using these sequencing reads, I will determinee the full sequence of the genome. To determine the sequence, I will find overlapion regions in the reads and use that to order the reads. This concept is called de novo alignment. 
+● What inputs will it accept? Explain how the program will interact with the user and with any data it
+needs. In what format will the data be initially? What commands or options does the user need to
+provide? In what Python data structures will you store data and user input? 
+● What manipulations will the program perform on the data? Explain how you’ll manipulate the data
+and user input. Explain how you’ll use scientific Python functionality that you’ve learned towards the
+manipulations. 
+● What outputs will the program produce? Explain how the program will give output to the user: plots,
+statistics, more data, etc. Don’t go into too much depth on this part; we’ll spend more time later on
+making readable, useful output
